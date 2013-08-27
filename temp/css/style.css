@@ -95,14 +95,6 @@ nav a:first-child {
 
 a { position:relative; }
 
-a span {
-    display:block;
-    position:absolute;
-    top:250px;
-    left:0px;
-    z-index:4;
-}
-
 .work {
     display:block;
     position:relative;
