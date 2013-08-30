@@ -27,9 +27,9 @@ h1 {
 }
 
 h1 a:link, h1 a:visited { color:#333; }
-h1 a:hover, h1 a:active{ color:#000; }
+h1 a:hover, h1 a:active { color:#000; }
 
-h2{ 
+h2 { 
     margin:8px 0px;
     font-family:"future-pt", sans-serif;
 }
@@ -99,9 +99,7 @@ a { position:relative; }
     display:block;
     position:relative;
     border:5px solid #fff;
-    width: 440px;
-    height:350px;
-    padding:0px;
+    padding:0;
     z-index:0;
     overflow:hidden;
     float:left;
@@ -111,7 +109,10 @@ a { position:relative; }
     box-shadow: 5px 4px 10px #000000;
 }
 
-.work img{ border:0; }
+.work img {
+    border:0;
+    display: block;
+}
 
 .work iframe {
     text-align:center;
@@ -139,7 +140,7 @@ h2 {
     font-size:24px;
 }
 
-br.clear{
+br.clear {
     clear:both;
 }
 
@@ -155,7 +156,6 @@ br.clear{
         max-width: 440px;
         margin: 20px auto;
         float:none;
-        height: auto;
     }
 
     img {
