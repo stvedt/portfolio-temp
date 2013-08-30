@@ -142,3 +142,23 @@ h2 {
 br.clear{
     clear:both;
 }
+
+@media (max-width: 930px) {
+    #container, #content {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .work {
+        width: 90%;
+        max-width: 440px;
+        margin: 20px auto;
+        float:none;
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
