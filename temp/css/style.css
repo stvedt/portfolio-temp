@@ -42,7 +42,7 @@ header {
 
 /* ---------------------- Page Structure --------------------*/
 body {
-    background: url(images/background.jpg) #333 top left no-repeat;
+    background: url(../images/background.jpg) #333 top left no-repeat;
 }
 
 #container {
