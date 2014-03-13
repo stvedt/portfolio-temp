@@ -1,14 +1,6 @@
 @charset "utf-8";
 /* ---------------------- Header  --------------------*/
-
-#fname {
-    padding-left:50px;
-}
-#lname {
-    height:38px;
-    padding-left:140px;
-    padding-bottom:4px;
-}
+#lname { padding-left:68px; }
 
 h1 {
     font-family: "futura-pt-condensed", sans-serif;  /*font-face from typekit*/
@@ -16,14 +8,10 @@ h1 {
     line-height:40px;
     font-size-adjust:inherit;
     display:block;
-    background:#d3d3d3;
+    color: #fff;
     padding:0px 10px 8px 0px;
     margin:5px;
     float:left;
-    text-align:right;
-    -moz-box-shadow: 5px 5px 10px #000000;
-    -webkit-box-shadow: 5px 5px 10px #000000;
-    box-shadow: 5px 5px 10px #000000;
 }
 
 h1 a:link, h1 a:visited { color:#333; }
