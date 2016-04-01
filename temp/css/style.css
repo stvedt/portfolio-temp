@@ -18,7 +18,7 @@ h1 {
 h1 a:link, h1 a:visited { color:#aaa; }
 h1 a:hover, h1 a:active { color:#ccc; }
 
-h2 { 
+h2 {
     margin:8px 0px;
     font-family:"future-pt", sans-serif;
 }
@@ -85,6 +85,7 @@ nav ul li {
 /* ---------------------- Content Area --------------------*/
 
 #content {
+    text-align: center;
     clear:both;
     position:relative;
     top:15px;
@@ -97,20 +98,20 @@ nav ul li {
 a { position:relative; }
 
 .work {
-    display:block;
+    display:inline-block;
     position:relative;
     border:5px solid #fff;
     padding:0;
     z-index:0;
     overflow:hidden;
-    float:left;
-    margin:10px 7.5px;
+    margin:15px;
     -moz-box-shadow: 5px 4px 10px #000000;
     -webkit-box-shadow: 5px 4px 10px #000000;
     box-shadow: 5px 4px 10px #000000;
 }
 
 .work img {
+    max-width: 400px;
     border:0;
     display: block;
 }
@@ -146,17 +147,10 @@ br.clear {
 }
 
 @media (max-width: 930px) {
-    #container, #content {
+    #container, #content, .container {
         width: 100%;
         padding: 0;
         margin: 0;
-    }
-
-    .work {
-        width: 90%;
-        max-width: 440px;
-        margin: 20px auto;
-        float:none;
     }
 
     img {
