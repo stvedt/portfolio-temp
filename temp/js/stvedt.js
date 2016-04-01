@@ -6,7 +6,7 @@ $(document).ready(function() {
 
       $(".work").mouseenter(function () {
         $this = $(this);
-        
+
         $this.data("delay", setTimeout( function () {
             $this.children(".caption").animate({"right":"0px"}, 400, "swing");
           }, 400)
@@ -16,7 +16,7 @@ $(document).ready(function() {
          $this.children(".caption").animate({"right":"-400px"}, 200, "swing");
        });
 
-    $(".open_fancybox").click(function() {
+    $(".open_fancybox_electronaut").click(function() {
 
     $.fancybox.open([
         {
@@ -37,4 +37,12 @@ $(document).ready(function() {
 
         return false;
     });
+});
+
+$(".open_fancybox_portable").fancybox({
+  	openEffect  : 'none',
+  	closeEffect : 'none',
+  	helpers : {
+  		media : {}
+  	}
 });
