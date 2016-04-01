@@ -154,4 +154,10 @@ br.clear {
     img {
         max-width: 100%;
     }
+
+    header img {
+        max-width: 120px;
+    }
+
+    nav a:link, nav a:visited { line-height: 80px; }
 }
